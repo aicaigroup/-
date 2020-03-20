@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-20T07:44:56.903Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="ohyA-81_a8sSunWFW1Sg" version="12.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-20T07:46:51.098Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="3JX2zqxmDs3eA-K-ksQp" version="12.8.6" type="github">
   <diagram id="g8mvxb7TyJ1PIBXN7VnG" name="第 1 页">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
         <mxCell id="k6VOVrodvs1jUws1bpA1-14" value="&lt;span style=&quot;white-space: normal&quot;&gt;校验客户所属渠道商&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="509" y="60" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="k6VOVrodvs1jUws1bpA1-7" value="未绑定客户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="k6VOVrodvs1jUws1bpA1-7" value="未绑定客户&lt;br&gt;前端跳转绑定客户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340.75" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k6VOVrodvs1jUws1bpA1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k6VOVrodvs1jUws1bpA1-8" target="k6VOVrodvs1jUws1bpA1-4">
