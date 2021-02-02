@@ -1,1 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T12:14:28.941Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" version="14.2.9" etag="tMm-4Zq0k5YTjs8IPsxa" type="github"><diagram id="PbgDD84wwQhYb9P31v9G">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-02T12:15:10.640Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="wu-i6j6jr7a1UaWHbTvH" version="14.2.9" type="github">
+  <diagram id="PbgDD84wwQhYb9P31v9G" name="第 1 页">
+    <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KkVBikC6T5ijZKILvQP9-2" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="KkVBikC6T5ijZKILvQP9-2">
+          <mxGeometry x="45" y="100" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;" vertex="1" parent="KkVBikC6T5ijZKILvQP9-2">
+          <mxGeometry x="50" y="360" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-5" value="⑥存储获取到的相关信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.014;entryY=0.707;fontSize=8;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.987;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="KkVBikC6T5ijZKILvQP9-2" source="KkVBikC6T5ijZKILvQP9-4" target="KkVBikC6T5ijZKILvQP9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="360" />
+              <mxPoint x="80" y="395" />
+              <mxPoint x="60" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-6" value="微信" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#CCFF99;" vertex="1" parent="1">
+          <mxGeometry x="900" y="80" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="KkVBikC6T5ijZKILvQP9-6">
+          <mxGeometry x="45" y="120" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-8" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="KkVBikC6T5ijZKILvQP9-8">
+          <mxGeometry x="45" y="100" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-10" value="①点击公众号菜单&lt;br&gt;调用菜单配置的URL&lt;br&gt;重定向鉴权请求" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="KkVBikC6T5ijZKILvQP9-9" target="KkVBikC6T5ijZKILvQP9-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-11" value="②重定向到微信获取code" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="KkVBikC6T5ijZKILvQP9-3" target="KkVBikC6T5ijZKILvQP9-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-12" value="&lt;pre style=&quot;margin-top: 0px ; margin-bottom: 0px ; padding: 0px ; overflow: auto ; overflow-wrap: break-word&quot;&gt;https://open.weixin.qq.com/connect/oauth2/authorize?appid=APP_ID&lt;/pre&gt;&lt;pre style=&quot;margin-top: 0px ; margin-bottom: 0px ; padding: 0px ; overflow: auto ; overflow-wrap: break-word&quot;&gt;&amp;amp;redirect_uri=RE_URL&amp;amp;response_type=code&amp;amp;scope=snsapi_base#wechat_redirect&lt;/pre&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="497" y="140" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-13" value="&lt;pre style=&quot;margin-top: 0px ; margin-bottom: 0px ; padding: 0px ; overflow: auto ; overflow-wrap: break-word ; font-size: 11px&quot;&gt;&lt;/pre&gt;&lt;p&gt;&lt;font color=&quot;#222222&quot; face=&quot;Times New Roman&quot; style=&quot;font-size: 11px&quot;&gt;URL=https://www.xxx.com/authorize?appid=APP_ID&lt;/font&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;times new roman&amp;#34; ; font-size: 11px&quot;&gt;这里的APP_ID用于多公众号&lt;/span&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacing=2;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="187" width="270" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-14" value="③调用RE_URL，返回code" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=8;entryX=1;entryY=0.281;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.288;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KkVBikC6T5ijZKILvQP9-7" target="KkVBikC6T5ijZKILvQP9-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="300" as="sourcePoint" />
+            <mxPoint x="860" y="270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-15" value="④通过CODE获取网页授权access_token" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.1;entryY=0.583;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KkVBikC6T5ijZKILvQP9-3" target="KkVBikC6T5ijZKILvQP9-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="200" as="sourcePoint" />
+            <mxPoint x="945" y="200.00000000000023" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-16" value="&lt;pre style=&quot;margin-top: 0px ; margin-bottom: 0px ; padding: 0px ; overflow: auto ; overflow-wrap: break-word&quot;&gt;https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&lt;/pre&gt;&lt;pre style=&quot;margin-top: 0px ; margin-bottom: 0px ; padding: 0px ; overflow: auto ; overflow-wrap: break-word&quot;&gt;&amp;amp;secret=SECRET&amp;amp;code=CODE&amp;amp;grant_type=authorization_code&lt;br&gt;&lt;/pre&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="343" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-17" value="⑤返回access_token、open_id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=8;entryX=1;entryY=0.781;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;exitX=-0.029;exitY=0.953;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KkVBikC6T5ijZKILvQP9-7" target="KkVBikC6T5ijZKILvQP9-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="945" y="269.12" as="sourcePoint" />
+            <mxPoint x="495" y="280.62" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="945" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-18" value="⑦跳转到首页" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=8;entryX=0.943;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;exitX=-0.086;exitY=0.961;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KkVBikC6T5ijZKILvQP9-3" target="KkVBikC6T5ijZKILvQP9-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="944.7099999999998" y="428.72" as="sourcePoint" />
+            <mxPoint x="495" y="429.9200000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="488" />
+              <mxPoint x="410" y="488" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-19" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 16px&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;[1]&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="905" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-20" value="微信跳转第三网URL鉴权流程：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KkVBikC6T5ijZKILvQP9-21" value="注：[1]&amp;nbsp;&lt;font color=&quot;#222222&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;https://open.weixin.qq.com/connect/oauth2/authorize?appid=APPID&amp;amp;redirect_uri=REDIRECT_URI&amp;amp;response_type=code&amp;amp;scope=SCOPE&amp;amp;state=STATE#wechat_redirect&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#222222&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;其中scope为snsapi_base和snsapi_userinfo，当为snsapi_userinfo时可以获取昵称、性别、所在地，需要在第⑤步后通过网页access_token再去获取&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="960" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
